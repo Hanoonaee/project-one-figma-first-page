@@ -1,0 +1,324 @@
+/* tab */
+@media (max-width:1024px) {
+    /* header{
+        display: none;
+    } */
+     body{
+        position: relative;
+     }
+     i.fa.fa-bars::before{
+        position: absolute;
+        top: 30px;
+        right: 30px;
+     }
+
+    .container{
+        width: 100%;
+        background-color: rgba(255, 255, 255);
+        position: absolute;
+        display: flex;
+        justify-content:left;
+        flex-direction: column;
+        top: 0;
+        padding: 40px 60px;
+        align-items:center;
+    }
+    .container img {
+         display: none; 
+    }
+    .container button {     
+        text-align: left;
+        font-size: 12px;
+        padding: 5px 8px;
+    }
+    .icon{
+        text-align:left ;
+    }
+    /* .container button a{
+        font-size: 12px;
+    } */
+
+    /* .icon{
+        padding: 10px 7px; */
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-self: flex-end;
+        width:100%;
+    }
+    .container a{
+        text-decoration: none;
+        font-size: 15px;
+        text-align: right;
+    }
+    /* page 2 */
+    .section-two{
+        padding: 60px;
+    }
+    .page-two{ 
+        display: flex; 
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        /* padding: 0px 60px; */
+        /* gap: 89px; */
+    }
+    .right {
+        display: flex;
+        align-items: center;
+        width:100%; 
+        /* height: 350px; */
+        /* gap: 10px; */
+    }
+    .left{
+        overflow: hidden;
+        border-radius: 10px;
+        /* height: 368px; */
+        width:100%;
+    }
+    /* section three */
+    .im1{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        /* gap: 20px; */
+    }
+    .card-container {
+        width: 100%;
+    }
+    .section-three {
+        padding:10px  60px ;
+    }
+        /* page 4 */
+    .page4b .image-page4 {
+        width: 20%;
+    }
+    .page4{
+    padding: 10px 60px;
+    }
+    .page4a h4{
+        font-size: 25px;
+
+    }
+    /* section five */
+    
+    #FullName{
+        width: 300px;
+    }
+    #email{
+        width: 300px;
+    }
+    .input-group textarea{
+        width: 300px;
+    }
+    .rightside iframe{
+        width:400px;
+    }
+       
+        /* six */
+    .section-six{
+        padding: 0 100px;
+
+    }    
+    .maincontainer{
+        display: flex;
+        justify-content: space-between;
+        /* gap: 30px; */
+        width: 100%;
+    }
+    /* navbar */
+    .container a {display: none;}
+    .container a.icon {
+        float: right;
+        display: block;
+    }
+    .container.responsive {position: relative;}
+    .container.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .container.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+@media (max-width:576px) {
+    i.fa.fa-bars::before{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+    body{
+        position: relative;
+    }
+    #mycontainer .container.responsive{
+        /* width: 100vw; */
+        background-color: rgba(255, 255, 255);
+        position: absolute;
+        display: flex;
+        justify-content:left;
+        flex-direction: column;
+        top: 0;
+        /* padding: 40px 60px; */
+        align-items:center;
+    }
+    .container{
+        padding: 0px 60px;
+    }
+    .section-five .five-a{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 100px 105px;
+        justify-content: space-between;
+        gap: 24px;
+    }
+    .image-page4 img {
+        width: 90px;
+        height: 60px;
+    }
+    .content h1 {
+        height: 571px;
+        color: white;
+        height: 75px; 
+        font-size: 30px;
+    }
+    .content p {
+        height: 46px;
+        font-size: 12px;
+        text-align: center;
+        color: white ;
+    }
+    .content a button{
+    color: #1692C7;
+    background-color: white;
+    /* font: weight 500px;; */
+    border: none;
+    padding:  10px 20px 10px 20px;
+    border-radius: 10px 10px 10px 10px;
+    /* margin-top: 15px; */
+    /* cursor: pointer;  */
+    /* font-family: Poppins; */
+    font-size: 12px;
+    /* font-weight: 500; */
+    /* line-height: 24px; */
+    /* text-align: left; */
+    }
+    
+    
+    /* 2 */
+    .right h1 {
+        /* font-family: Poppins; */
+        font-size: 25px;
+        /* font-weight: 600;
+        line-height: 52.5px;
+        text-align: left;
+        margin: 0; */
+    }
+    .right p{
+        margin: 0;
+        font-size: 12px;
+        text-align: center;
+    }
+    .right button a{
+        font-size: 12px;
+    }
+
+    /* 3 */
+    .card-container p{
+        font-size: 12px;
+    }
+    .card-container button{
+        font-size: 12px;
+    }
+    .section-three .Services{
+        font-size: 25px;
+    }
+    /* 4 */
+    .page4a h4{
+        font-size: 25px;
+    }
+    .page4b .image-page4 {
+        width: 10%;
+    }
+    .page4{
+    padding: 10px 60px;
+    }
+    .section-five h1{
+        font-size: 25px;
+    }
+     
+    #FullName{
+        width: 100%;
+    }
+    #email{
+        width:100%;
+    }
+    .input-group textarea{
+        width: 100%;
+    }
+    .rightside{
+        width: 100%;
+    }
+    .section-five .five-a{
+        padding: 0 60px;
+        width: 100%;
+    }
+    .leftside{
+        display: flex;
+        width: 100%;
+    }
+    button a{
+        font-size: 12px;
+    }
+    iframe{
+        width:200px;
+        padding: 10px 60px;
+    }
+    /* 6 */
+    .maincontainer {
+        display: flex; 
+        flex-direction:column;
+        justify-content: center;
+        padding: 10px 0px
+        }
+    .part h4 {
+        width:100%;
+        height: 25px;
+      
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 22.5px;
+        text-align: center;
+    }
+    .part {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer {
+        font-size: 12px;
+    }
+    /* navbar */
+    .container a{
+        display: none;}
+    .container a.icon {
+        float: right;
+        display: block;
+    }
+    .container.responsive {position: relative;}
+    .container.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .container.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
